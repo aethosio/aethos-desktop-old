@@ -1,0 +1,70 @@
+{
+  "name": "aethos-desktop",
+  "version": "0.1.0",
+  "description": "AetOS web based desktop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aethosio/aethos-desktop.git"
+  },
+  "author": "Raymond A. Richards",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aethosio/aethos-desktop/issues"
+  },
+  "homepage": "https://github.com/aethosio/aethos-desktop#readme",
+  "dependencies": {
+    "body-parser": "^1.12.4",
+    "express": "^4.14.0",
+    "gulp-sass": "^2.2.0",
+    "require-dir": "^0.3.0",
+    "thalassa": "^0.4.1"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "del": "^1.1.0",
+    "gulp": "^3.8.10",
+    "gulp-babel": "^5.1.0",
+    "gulp-changed": "^1.1.0",
+    "gulp-nodemon": "^2.0.3",
+    "gulp-plumber": "^0.6.6",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.3.0",
+    "jspm": "^0.16.11",
+    "object.assign": "^1.0.3",
+    "run-sequence": "^1.0.2",
+    "system-npm": "^0.3.2",
+    "vinyl-paths": "^1.0.0"
+  },
+  "jspm": {
+    "dependencies": {
+      "aurelia-animator-css": "npm:aurelia-animator-css@^1.0.0-beta.1.2.0",
+      "aurelia-bootstrapper": "npm:aurelia-bootstrapper@^1.0.0-beta.1.2.0",
+      "aurelia-event-aggregator": "npm:aurelia-event-aggregator@^1.0.0-beta.1.2.0",
+      "aurelia-fetch-client": "npm:aurelia-fetch-client@^1.0.0-beta.1.2.3",
+      "aurelia-framework": "npm:aurelia-framework@^1.0.0-beta.1.2.2",
+      "aurelia-history-browser": "npm:aurelia-history-browser@^1.0.0-beta.1.2.0",
+      "aurelia-loader-default": "npm:aurelia-loader-default@^1.0.0-beta.1.2.1",
+      "aurelia-logging-console": "npm:aurelia-logging-console@^1.0.0-beta.1.2.0",
+      "aurelia-pal-browser": "npm:aurelia-pal-browser@^1.0.0-beta.1.2.0",
+      "aurelia-polyfills": "npm:aurelia-polyfills@^1.0.0-beta.1.1.2",
+      "aurelia-router": "npm:aurelia-router@^1.0.0-beta.1.2.1",
+      "aurelia-templating-binding": "npm:aurelia-templating-binding@^1.0.0-beta.1.2.1",
+      "aurelia-templating-resources": "npm:aurelia-templating-resources@^1.0.0-beta.1.2.2",
+      "aurelia-templating-router": "npm:aurelia-templating-router@^1.0.0-beta.1.2.0",
+      "bootstrap": "github:twbs/bootstrap@^3.3.5",
+      "fetch": "github:github/fetch@^0.11.0",
+      "font-awesome": "npm:font-awesome@^4.5.0",
+      "mutationobservers": "npm:mutationobservers@^0.0.1",
+      "text": "github:systemjs/plugin-text@^0.0.3"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.22",
+      "babel-runtime": "npm:babel-runtime@^5.8.20",
+      "core-js": "npm:core-js@^1.1.0"
+    }
+  }
+}

@@ -1,0 +1,82 @@
+.splash {
+  text-align: center;
+  margin: 10% 0 0 0;
+  box-sizing: border-box;
+}
+
+.splash .message {
+  font-size: 72px;
+  line-height: 72px;
+  color: black;
+  text-shadow: rgba(0, 0, 0, 0.5) 0 0 15px;
+  text-transform: uppercase;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.splash .fa-spinner {
+  text-align: center;
+  display: inline-block;
+  color: white;
+  font-size: 72px;
+  margin-top: 50px;
+}
+
+section {
+  margin: 0 20px;
+}
+
+.navbar-nav li.loader {
+  margin: 12px 24px 0 6px;
+}
+
+.page-host {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 50px;
+  bottom: 40px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.desktop-icon-notify{
+  background-color:red;
+  position:absolute;
+  bottom: 40px;
+  right: 0px;
+  padding: 5px;
+  border-radius: 5px 20px/30px 20px;
+}
+
+.desktop-icon-block {
+  vertical-align: middle;
+}
+
+.desktop-icon-text {
+  text-align: center;
+  vertical-align: middle;
+  min-height: 40px;
+}
+
+.log-view {
+  position: fixed;
+  bottom: 40px;
+  left: 0;
+  right: 0;
+  padding: 8px 8px;
+  border-style: groove;
+  border-width: 3px 0px 0px 0px;
+  border-color: #FFFFFF;
+}
+
+.status-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAYAAACp8Z5+AAAAHElEQVQIW2NkYGDwYWBg2AKjGRkgAC4IEsCvAgDavgadjG7DXAAAAABJRU5ErkJggg==);
+  padding: 8px 8px;
+  border-style: groove;
+  border-width: 3px 0px 0px 0px;
+  border-color: #FFFFFF;
+}

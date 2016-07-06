@@ -1,0 +1,27 @@
+<!--
+  This is the view for our root application view
+  This view defines content surrounding all pages within our view
+  and specifies the point where child pages should be injected
+  with the <router-view> tag
+-->
+<template>
+  <require from="nav-bar.html"></require>
+  <require from="status-bar"></require>
+  // TODO Eventually the log view needs to go in a separate view
+  <require from="log-view"></require>
+  <!-- These tags let us include third-party css files from JSPM packages
+       without needing to worry about the version part of the path
+       that can change as we update to new version of our libraries  -->
+  <require from="font-awesome/css/font-awesome.min.css"></require>
+  <require from="bootstrap/css/bootstrap.min.css"></require>
+  <!-- Main site css -->
+  <require from="../assets/css/site.css"></require>
+
+  <nav-bar router.bind="router"></nav-bar>
+
+  <div class="page-host">
+    <router-view></router-view>
+  </div>
+  <!-- <log-view></log-view> -->
+  <status-bar></status-bar>
+</template>
